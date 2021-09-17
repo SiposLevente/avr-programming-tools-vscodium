@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "AVR",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/Documents/Arduino/avr8-gnu-toolchain/avr8-gnu-toolchain-linux_x86_64/avr/include/**",
+                "~/Documents/Arduino/avr8-gnu-toolchain/avr8-gnu-toolchain-linux_x86_64/avr/include/avr/**"
+            ],
+            "defines": [
+                "__ATmega328P__",
+                "__AVR_ATmega328P__"
+            ],
+            "compilerPath": "/usr/bin/avr-gcc",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-x64",
+            "compilerArgs": [
+                "-mmcu=atmega328p"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
